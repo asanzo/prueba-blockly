@@ -6,17 +6,17 @@
 	<link href="bower_components/polymer/polymer.html" rel="import">
 	<link href="bower_components/gs-element-blockly/app/gs-element-blockly.html" rel="import">
 
-  <template is="dom-bind" id="app">
-    <span>Esta sección acepta bindings, es manejada por Polymer y tiene su propio DOM privado (no accesible por `document.getElementById`). Como no es accesible, Blockly falla en el `inject` porque no encuentra el div `#blocklyDiv`.</span>
+	<template is="dom-bind" id="app">
+		<span>Esta sección acepta bindings, es manejada por Polymer y tiene su propio DOM privado (no accesible por `document.getElementById`). Como no es accesible, Blockly falla en el `inject` porque no encuentra el div `#blocklyDiv`.</span>
 
-    <span>{{unaVariableCualquiera}}</span>
-	  <gs-element-blockly></gs-element-blockly>
-  </template>
+		<span>{{unaVariableCualquiera}}</span>
+		<gs-element-blockly></gs-element-blockly>
+	</template>
 
-  <script>
-    var app = document.querySelector('#app');
-    app.unaVariableCualquiera = "Un valor bindeado";
-  </script>
+	<script>
+		var app = document.querySelector('#app');
+		app.unaVariableCualquiera = "Un valor bindeado";
+	</script>
 
 </body>
 </html>
