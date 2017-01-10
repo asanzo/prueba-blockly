@@ -6,6 +6,7 @@ sudo npm install -g static-server
 
 # install dependencies
 npm install
+bower install
 
 # run the server
 static-server
