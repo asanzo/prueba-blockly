@@ -19,7 +19,7 @@
     "polymer": "~1.7.1"
   },
   "dependencies": {
-    "gs-element-blockly": "~0.1.0",
+    "gs-element-blockly": "~0.1.1",
     "polymer": "~1.7.1",
     "webcomponentsjs": "~0.7.23"
   }
